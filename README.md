@@ -45,8 +45,10 @@ NLP项目分类：百度试题数据集多标签文本分类
 2. textcnn
 3. gcn 
 4. bert
-5. ERNIE 2.0min
-6. xlnet(to do )
+5.bert_CNN
+6.bert_RNN
+7. ERNIE 2.0min
+8. xlnet(to do )
 # 实验结果
 |数据集|模型|类别|Acc|Micro-F1|Macro-F1|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -56,4 +58,6 @@ NLP项目分类：百度试题数据集多标签文本分类
 |Baidu|Transformer|95|-|0.90403605|0.79695547|
 |Baidu|BERT_3layes_label|21|0.7958|0.941|0.163|
 |Baidu|BERT|95|0.5788|0.917|0.781|
+|Baidu|BERT|95|0.5698|0.913|0.763|
+|Baidu|BERT|95|0.5753|0.905|0.792|
 |Baidu|ERNIE 2.0min|95|0.5948|0.919|0.783|
